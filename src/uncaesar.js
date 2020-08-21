@@ -1,7 +1,6 @@
 import { SHIFT, ALPHABET, characterIndices } from './cipher';
 
-function uncaesar(argument) {
-  const string = argument.toLowerCase();
+function uncaesar(string) {
   let decryption = '';
   for (let index = 0; index < string.length; index += 1) {
     const char = string[index];

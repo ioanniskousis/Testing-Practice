@@ -36,4 +36,4 @@ export {
   SHIFT,
   ALPHABET,
   characterIndices,
-}
+};
